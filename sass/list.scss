@@ -1,0 +1,165 @@
+html,body{ height: 100%;}
+body{ 	
+		font-family: "微软雅黑";
+		display: flex;
+		background: #fff;
+		flex-direction: column;
+		/*font-size: 12px;*/
+    }
+ header{
+    height: 0.38rem;
+    line-height: 0.38rem;
+    position: relative;
+    h2{
+        height: 0.38rem;
+        line-height: 0.38rem;
+        font-size:0.16rem;
+        color: #fff;
+        background: #00b38a; 
+        text-align: center;    
+    }
+    .a1{
+        position: absolute;
+        left: 0.12rem;
+        top:0.04rem; 
+        display: block;
+        width: 0.13rem;
+        height: 0.13rem;
+        text-align: center;
+        color: #fff;
+        font-size: 0.12rem;
+    }
+    img{
+        position: absolute;
+        right: 0.1rem;
+        top: 0.12rem;
+    }
+}
+
+section{
+    flex: 1;
+    overflow:auto;
+    .title{
+        height: 0.4rem;
+        line-height: 0.4rem;
+        padding: 0 0.17rem 0 0.14rem;
+        border-bottom: 1px solid #ddd;
+        h2{
+            font-size: 0.16rem;
+            color: #222;
+            font-weight: bold;    
+            float: left;        
+        }
+        p{
+            float: right;
+            text-align: center;
+            height: 0.38rem;
+            span{
+                display: block;
+                font-size: 0.11rem;
+                color: #bcbcbc;
+                height: 0.14rem;
+                img{
+                    display: inline-block;
+                    margin-left: 0.1rem;
+                    // margin-top: 0.05rem;
+                    // height: 0.11rem;
+                    // vertical-align: middle;
+    
+                }
+            }
+        }
+    }
+    .res{
+        padding: 0.12rem 0.1rem;
+        font-size: 0.12rem;
+        color: #878787;
+        li{
+            float: left;
+            margin-right: 0.73rem;
+            display: block;
+            margin-top: 0.12rem;
+            span{
+                display: inline-block;
+                width:0.08rem;
+                height: 0.1rem;
+                background: url(../img/f.png) no-repeat center;
+                vertical-align: middle; 
+                margin-right: 0.06rem;
+            }
+        }
+        li:nth-child(3){
+            margin-right: 0;
+        }
+    }
+    .zw{
+        font-size:0.12rem;
+        color: #bcbcbc;
+        padding: 0.1rem 0.1rem 0.14rem;
+        border-bottom: 1px solid #ddd;
+    }
+    .con1{
+        padding: 0.11rem 0.12rem;
+        .pica{
+            float: left;
+        }
+        .con1-center{
+            float: left;
+            margin-left: 0.1rem;
+            a{
+                display: block;
+                color: #00b38a;
+                font-size: 0.15rem;
+            }
+            p{
+                font-size: 0.12rem;
+                color: #878787;
+            }
+        }
+        .con1-right {
+            float: right;
+            margin-left: 0.1rem;
+            margin-top: 0.2rem;
+            img{
+                vertical-align: middle;
+                width: 17px;
+                height: 24px;
+            }
+        }
+    }
+    .ms{
+        color: #00b38a;
+        background: #d2f9f0;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        padding-left: 0.15rem;
+        margin-bottom: 0.18rem;
+    }
+    .con{
+       margin-bottom: 0.3rem;
+       font-size: 0.12rem;
+       padding-left: 0.15rem ;
+       color: #878787;      
+    }
+    .nr{
+        font-size: 0.12rem;
+        color: #878787;
+        padding: 0 0.13rem;
+        margin-bottom: 0.2rem;
+    }
+    .td{
+        padding: 0 0.15rem;
+        margin-bottom: 0.1rem;
+        a{
+            display: block;
+            background: #00b38a;
+            color:#fff;
+            width: 2.87rem;
+            height: 0.37rem;
+            line-height: 0.37rem;
+            text-align: center;
+            font-size: 0.13rem;
+            margin: 0 auto;
+        }
+    }
+}

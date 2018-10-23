@@ -1,0 +1,94 @@
+html,body{ height: 100%;}
+body{ 	
+		font-family: "微软雅黑";
+		display: flex;
+		background: #fff;
+		flex-direction: column;
+		/*font-size: 12px;*/
+	}
+header h2{
+    height: 0.38rem;
+    line-height: 0.38rem;
+    font-size:0.16rem;
+    color: #fff;
+    background: #00b38a; 
+    text-align: center;
+}
+section{
+    flex: 1;
+    overflow:auto;
+}
+ .con1{
+    padding: 0.11rem 0.1rem 0.16rem 0.12rem;
+    border-bottom: 1px solid #ddd;
+    img{
+        display: block;
+        float: left;
+        width: 50px;
+        height: 50px;
+    }
+    .con1-center{
+        float: left;
+        margin-left:0.09rem;
+        a{
+            display: block;
+            color: #222;
+            font-weight: bold;
+            font-size: 0.12rem;
+            margin-bottom: 0.03rem;
+        }
+        p{
+            color: #333;
+            font-size: 0.1rem;
+            margin-bottom: 0.03rem;
+        }
+        h4{
+            color: #888;
+            font-size: 0.1rem
+        }
+    }
+    .con1-right{
+        color: #00b38a;
+        font-size: 0.1rem;
+        float: right;
+        // margin-left: 1.17rem;
+        margin-top: 0.25rem;
+        vertical-align: top;
+    }
+}
+// footer
+/*footer*/
+footer{
+	height: 0.4rem;
+	border-top: 1px solid #e0e0e0;
+	background: #f9f9f9;
+    // padding: 0.12rem 0.3rem 0.15rem 0.3rem;
+    line-height: 0.4rem;
+	// display: flex;
+	// justify-content: space-around;
+    // align-items: center;
+    font-size: 0.13rem;
+    color: #ddd;
+}
+footer figure{
+    float: left;
+    width: 33%;
+	display: flex;
+	// flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer figure:hover{
+    background: #e7f3f0;
+}
+footer figure.cur{
+    background:#e7f3f0 ;
+}
+footer figure figcaption{
+	font-size: 0.13rem;
+    color: #ccd7d4;
+    margin-left: 0.05rem;
+}
+footer figure:hover figcaption{
+    color: #00b38a;
+}

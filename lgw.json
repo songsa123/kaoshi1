@@ -1,0 +1,60 @@
+[{
+    "logger": {
+     "traceCapable": true,
+     "name": "com.lagou.entity.mobile.MobilePosition"
+    },
+    "positionId": 3656671,
+    "positionName": "运营专员助理",
+    "city": "北京",
+    "createTime": "今天 10:52",
+    "salary": "5k-7k",
+    "companyId": 35946,
+    "companyLogo": "https://static.lagou.com/i/image/M00/06/79/CgpFT1jeAUOATrstAAAkBGQCm2U096.png",
+    "companyName": "闪送",
+    "companyFullName": "北京闪送科技有限公司"
+},
+{
+    "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+    },
+    "positionId": 3652822,
+    "positionName": "后台产品经理",
+    "city": "北京",
+    "createTime": "今天 10:52",
+    "salary": "30k-40k",
+    "companyId": 35946,
+    "companyLogo": "https://static.lagou.com/i/image/M00/06/79/CgpFT1jeAUOATrstAAAkBGQCm2U096.png",
+    "companyName": "闪送",
+    "companyFullName": "北京闪送科技有限公司"
+},
+{
+    "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+    },
+    "positionId": 3649473,
+    "positionName": "语音测试实习生",
+    "city": "南京",
+    "createTime": "今天 10:51",
+    "salary": "3k-4k",
+    "companyId": 83580,
+    "companyLogo": "https://static.lagou.com/image1/M00/45/15/Cgo8PFXZ2tuAdaWAAAF9uSm9of8297.jpg",
+    "companyName": "地平线机器人",
+    "companyFullName": "北京地平线信息技术有限公司"
+},
+{
+    "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+    },
+    "positionId": 3653643,
+    "positionName": "高级java开发工程师",
+    "city": "深圳",
+    "createTime": "今天 10:50",
+    "salary": "15k-25k",
+    "companyId": 24548,
+    "companyLogo": "https://static.lagou.com/image1/M00/00/32/Cgo8PFTUXIqAVoVAAAA_wD9LNj4965.png",
+    "companyName": "和美信息",
+    "companyFullName": "深圳市和美信息技术有限公司"
+}]
